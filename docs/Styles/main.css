@@ -46,7 +46,9 @@ body {
     width:30px;
     height:30px;
 }
-
+a.image-link:hover {
+    text-decoration:none !important;
+}
 .image-float-left {
     float: left;
     margin: 0px 10px 10px 0px;
