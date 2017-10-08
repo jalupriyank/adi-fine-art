@@ -1,9 +1,14 @@
+@font-face { font-family: "Prelude-FLF"; src: url('../Fonts/PreludeFLF.ttf'); } 
 body {
     color: gray;
 }
-.jumbotron {  
+.jumbotron {
     padding-top: 70px;
     background-color: #f7f7f7;
+}
+.jumbotron h1 {
+    font-family: "Prelude-FLF" !important;
+    font-size:5rem;    
 }
 .navbar {
     margin-bottom: 0;
@@ -38,7 +43,7 @@ body {
 }
 
 .logo {
-    font-size: 40px;
+    font-size: 30px;
     vertical-align: middle;
 }
 .social-media {
@@ -60,4 +65,7 @@ a.image-link:hover {
 .about-text {
     padding:20px;
     text-align: justify;
+}
+.image-portfolio {
+    padding: 20px;
 }
