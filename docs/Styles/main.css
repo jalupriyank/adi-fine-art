@@ -3,13 +3,16 @@ body {
     color: gray;
 }
 .jumbotron {
-    padding-top: 70px;
-    background-color: #f7f7f7;
+    padding: 160px 0;
+    background-image: url('../Pics/jumbotron.jpg');
+    background-size: cover;
+    color: white;
 }
 .jumbotron h1 {
     font-family: "Prelude-FLF" !important;
-    font-size:5rem;    
+    font-size: 6rem;
 }
+
 .navbar {
     margin-bottom: 0;
     background-color: white;
@@ -52,6 +55,9 @@ body {
     height:30px;
 }
 a.image-link:hover {
+    text-decoration:none !important;
+}
+a.image-link {
     text-decoration:none !important;
 }
 .image-float-left {
