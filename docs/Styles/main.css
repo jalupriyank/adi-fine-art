@@ -4,13 +4,13 @@ body {
 }
 .jumbotron {
     padding: 160px 0;
-    background-image: url('../Pics/jumbotron.jpg');
+    background-image: url('../Pics/canis.jpg');
     background-size: cover;
     color: white;
 }
 .jumbotron h1 {
     font-family: "Prelude-FLF" !important;
-    font-size: 6rem;
+    font-size: 8rem;
 }
 
 .navbar {
@@ -69,7 +69,7 @@ a.image-link {
     font-size:15px;
 }
 .about-text {
-    padding:20px;
+    padding:50 px;
     text-align: justify;
 }
 .image-portfolio {
