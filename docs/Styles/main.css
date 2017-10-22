@@ -1,18 +1,31 @@
 @font-face { font-family: "Prelude-FLF"; src: url('../Fonts/PreludeFLF.ttf'); } 
 body {
-    color: gray;
+    color: black;
 }
 .jumbotron {
     padding: 160px 0;
     background-image: url('../Pics/canis.JPG');
-    background-size: cover;
-    color: white;
+    background-size: cover;    
 }
 .jumbotron h1 {
     font-family: "Prelude-FLF" !important;
-    font-size: 8rem;
+    font-size: 6rem;
 }
-
+.jumbotron hr {
+    border-top: 2px solid black !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.jumbotron .container {
+    width: 400px;
+    background-color: white;
+    outline: 10px solid white;
+    border: 3px solid hotpink;
+}
+hr {
+    border-top: 2px solid black !important;
+    margin: 25px 0 !important;
+}
 .navbar {
     margin-bottom: 0;
     background-color: white;
@@ -28,12 +41,11 @@ body {
 }
 
 .navbar li a, .navbar .navbar-brand {
-    color: silver !important;
+    color: black !important;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: gray !important;
-    /*background-color: #f7f7f7 !important;*/
+    color: grey !important;
 }
 
 .navbar-default .navbar-toggle {
@@ -50,7 +62,7 @@ body {
     vertical-align: middle;
 }
 .social-media {
-    margin: 5px;
+    margin: 5px 5px 15px 5px;
     width:30px;
     height:30px;
 }
