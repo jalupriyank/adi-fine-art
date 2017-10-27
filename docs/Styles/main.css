@@ -4,7 +4,7 @@ body {
 }
 .jumbotron {
     padding: 160px 0;
-    background-image: url('../Pics/canis.JPG');
+    background-image: url('../Pics/background.jpg');
     background-size: cover;    
 }
 .jumbotron h1 {
