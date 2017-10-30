@@ -3,7 +3,7 @@ body {
     color: black;
 }
 .jumbotron {
-    padding: 160px 0;
+    padding: 190px 0;
     background-image: url('../Pics/background.jpg');
     background-size: cover;    
 }
@@ -39,24 +39,31 @@ hr {
     padding-top:20px !important; 
     padding-bottom:20px !important;
 }
-
 .navbar li a, .navbar .navbar-brand {
     color: black !important;
 }
-
 .navbar-nav li a:hover, .navbar-nav li.active a {
     color: grey !important;
 }
-
 .navbar-default .navbar-toggle {
     border-color: transparent;    
 }
-
 .navbar-toggle {
     margin-top: 25px;
     font-size: 30px;
 }
-
+.navbar-default .navbar-nav>.open>a:hover {
+    background-color: white !important;
+}
+.nav .open>a:hover {
+    background-color: white !important;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    background-color: white !important;
+}
+.navbar li a {
+    background-color: white !important;
+}
 .logo {
     font-size: 30px;
     vertical-align: middle;
