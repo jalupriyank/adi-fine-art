@@ -117,3 +117,11 @@ a.image-link {
 .background-lavender {
     background-color: lavender;
 }
+a.link-etsy {
+    text-decoration:none !important;
+    color:black;
+}
+a.link-etsy:hover {
+    text-decoration:none !important;
+    color:black;
+}
