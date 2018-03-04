@@ -92,7 +92,10 @@ a.image-link {
     text-align: justify;
 }
 .image-portfolio {
-    padding: 20px;
+    padding: 45px;
+}
+.image-mixed-media {
+    padding: 65px;
 }
 .font-weight-bold {
     font-weight: bold;    
@@ -103,6 +106,9 @@ a.image-link {
 }
 .featured h4 {
     font-size: 2rem;
+}
+.featured div {
+    margin-top: 15px;
 }
 
 .featured a {
@@ -116,14 +122,6 @@ a.image-link {
 }
 .background-lavender {
     background-color: lavender;
-}
-a.link-etsy {
-    text-decoration:none !important;
-    color:black;
-}
-a.link-etsy:hover {
-    text-decoration:none !important;
-    color:black;
 }
 .sold-span {
     background: red;
